@@ -1,0 +1,35 @@
+body{
+    background-image: url('pictures/imagemdefundo.jpg');
+    color: white;
+   }
+   nav a:hover{
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    text-decoration:overline;
+
+}
+   #sobre,#outros,#formulario,#games{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.navSobreOutrosForm{
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    background-color: rgb(19, 19, 19);
+
+}
+h2{
+    font-size: 35px;
+}
+p{
+   text-decoration: underline; 
+}
+

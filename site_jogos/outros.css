@@ -1,0 +1,48 @@
+body{
+    background-image: url('pictures/imagemdefundo.jpg');
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+
+   }
+
+   h1{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 90px;
+    text-shadow: red 0.1em 0.1em 0.4em;
+   }
+   #section1{
+    width: 700px;
+    float: left;
+   }
+   #section2{
+    width: 700px;
+    float: right;
+   }
+
+   nav a:hover{
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    text-decoration:overline;
+
+}
+   #sobre,#outros,#formulario,#games{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+    text-shadow: red 0.1em 0.1em 0.4em;
+}
+
+.navSobreOutrosForm{
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    background-color: rgb(19, 19, 19);
+}
+

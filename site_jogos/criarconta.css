@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    background-image: url('pictures/imagemdefundo.jpg');
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin: 5px;
+   }
+
+#criarconta{
+    font-size: 15px;
+    margin-top: 50px;
+}
+#coluna{
+    width: 260px;
+    height: 260px;
+    border: 5px solid #828282;
+    float: right;
+    margin-bottom: 20px;
+   }
+
+   #enviar_btn{
+    margin-top: 40px;
+   }
+
+   
+

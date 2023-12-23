@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('pictures/imagemdefundo.jpg');
+    color: white;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+   label{
+    display: block;
+    margin: 5px;
+   }
+   #emailsenha{
+
+    width: 320px;
+    height: 120px;
+    border-left: 5px solid #828282;
+    border-right: 5px solid #828282;
+    border-top: 5px solid #828282;
+   }
+#login{
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #828282;
+    border-right: 5px solid #828282;
+    border-bottom: 5px solid #828282;
+    height: 60px;
+
+}
+
+#criarconta{
+    color: white;
+}
+a:hover{
+text-decoration: none;
+}
+
